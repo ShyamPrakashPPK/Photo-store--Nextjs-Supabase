@@ -3,17 +3,10 @@ import AuthForm from './components/AuthForm'
 
 export default function Home() {
   return (
-    <main className="flex items-center justify-center bg-gray-900 min-h-screen">
-      <div className="bg-gray-700 rounded-lg shadow-lg p-6 w-full max-w-lg">
-        <h2 className="text-white text-2xl font-bold mb-4 text-center">Welcome to Photo Store</h2>
-        <p className="mb-6 text-lg text-center">
-          Sign in to upload and save your favorite photos.
-        </p>
+    <main className="flex items-center justify-center bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#000000] via-[#2a2929] to-[#000000] min-h-screen">
+      
         <AuthForm />
-      </div>
-      <div className='absolute top-4 right-4'>
 
-      </div>
     </main>
   )
 }

@@ -4,7 +4,7 @@ import SignOutButton from "../components/SignOutButton";
 
 export default function Favorites() {
     return (
-        <main className="min-h-screen bg-gray-800 text-white relative p-10">
+        <main className="min-h-screen relative p-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-[#000000] via-[#2a2929] to-[#000000]">
             <Nav />
             <div className="container mx-auto px-4 py-4">
                 <div className="flex flex-col items-center mb-6">
